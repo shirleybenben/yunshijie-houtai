@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<title>新增订单</title>
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/sourceBass.css">
+<link rel="stylesheet" type="text/css" href="/css/addBusSourceOrder.css" />
+<link rel="stylesheet" type="text/css" href="/css/datepicker.min.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-extends.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery.multiselect.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery.multiselect.filter.css?ver=0.3"/>
+
+<body>
+	<header id="header"></header>
+	<div class="con_tent">
+		<div class="require">
+			<h3>客户合同</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<label class="fl">订单号</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">客户合同</label>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">线路属性</label>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">是否允许外请</label>
+						<select name="" id=""></select>
+					</div>
+				</div>
+				<div class="middle fl">
+					<div class="layout clearfix">
+						<label class="fl">订单类型</label>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout layout_two clearfix">
+						<label class="fl">始发地</label>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout layout_two clearfix">
+						<label class="fl">用车要求</label>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">客户单号</label>
+						<input class="fr" type="text" />
+					</div>
+				</div>
+				<div class="right fr">
+					<div class="layout clearfix">
+						<label class="fl">客户全称</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout layout_two clearfix">
+						<label class="fl">目的地</label>
+						<select name="" id=""></select>
+						<select name="" id=""></select>
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">是否进口</label>
+						<select name="" id=""></select>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="require">
+			<h3>联系人信息</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<label class="fl">发货人公司</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">发货人手机</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">收货人公司</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">收货人手机</label>
+						<input class="fr" type="text" />
+					</div>
+				</div>
+				<div class="middle fl">
+					<div class="layout clearfix">
+						<label class="fl">发货联系人</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout layout_three clearfix">
+						<label class="fl">发货人地址</label>
+						<select name="" id="" ></select>
+						<select name="" id="" ></select>
+						<select name="" id="" ></select>
+					</div>
+					<div class="layout layout clearfix">
+						<label class="fl">收货人名称</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout layout_three clearfix">
+						<label class="fl">收货人地址</label>
+						<select name="" id="" ></select>
+						<select name="" id="" ></select>
+						<select name="" id="" ></select>
+					</div>
+				</div>
+				<div class="right fr">
+					<div class="layout clearfix">
+						<label class="fl">发货人电话</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">详细地址</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">收货人电话</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">详细地址</label>
+						<input class="fr" type="text" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="require">
+			<h3>货物及时效</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<label class="fl">货物品名</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">公里数</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">计划发车</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">结算方式</label>
+						<select name="" id="" ></select>
+					</div>
+				</div>
+				<div class="middle fl">
+					<div class="layout clearfix">
+						<label class="fl">计价方式</label>
+						<select name="" id="" ></select>
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">实际重量</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">到达时限</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">是否已开单</label>
+						<input class="fr" type="text" />
+					</div>
+
+				</div>
+				<div class="right fr">
+					<div class="layout clearfix">
+						<label class="fl">单价</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">实际体积</label>
+						<input class="fr" type="text" />
+					</div>
+					<div class="layout clearfix">
+						<label class="fl">回单要求</label>
+						<select name="" id="" ></select>
+					</div>
+				</div>
+			</div>
+			<div class="layout layout_line clearfix">
+				<label class="fl">计划发车</label>
+				<textarea name="" id="" class="fl">这里是备注内容</textarea>
+			</div>
+		</div>
+	</div>
+	<div class="check">
+		<div>
+			<a href="javascirpt:;" class="check_order active">保存</a>
+			<a href="javascirpt:;" class="check_close">取消</a>
+		</div>
+		
+	</div>
+</body>
+	<script type="text/javascript" src="/js/jquery-2.1.1.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery-ui.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/datepicker.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.multiselect.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.multiselect.filter.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/datepicker.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.cookie.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.md5.js?ver=0.3"></script>
+   	<script type="text/javascript" src="/js/store.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/global_config.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/global.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/CBSTable.js?ver=0.3"></script>
+	<script type="text/javascript">
+		var timer;
+		$('.check_hover').hover(function() {
+			$('.hover_content').show();
+			clearTimeout(timer);
+		}, function() {
+			timer = setTimeout(function(){
+				$('.hover_content').hide();
+			},200);
+		});
+		$('.hover_content').hover(function() {
+			clearTimeout(timer);
+		}, function() {
+			timer = setTimeout(function(){
+				$('.hover_content').hide();
+			},200);
+		});
+
+		// // 模态窗口
+		// $('.refuse').click(function(){
+		// 	$('.mo_del').show();
+		// });
+		// $('.model_content span').click(function(){
+		// 	$('.mo_del').hide();
+		// });
+	</script>
+
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+/*
+* @Author: zhihong-zh
+* @Date:   2016-07-12 14:42:28
+* @Last Modified by:   zhihong-zh
+* @Last Modified time: 2016-07-12 18:12:04
+*/
+.con_tent{border:none;width:1150px;}
+.check{border:none;width:1150px;}
+.right_long{width:746px;}
+.right_one{width:100%;}
+.right_one span{width:632px;}
+.right_one input{width:632px;}
+.layout_two span{width:108px;}
+.layout_two span:last-child{margin-right:16px;}
+.layout_line span{width:1032px;height:26px;line-height: 26px;padding-top:0;}
+.layout_long span{width:113px;}
+.layout_long span:last-child{margin-right:5px;}
+.check .active{ background-color: #de642c;color:#fff;border: 1px solid #bc5120; border-radius: 2px;}
+.check a{width:90px;}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<title>订单详情</title>
+<link rel="stylesheet" type="text/css" href="/css/common.css">
+<link rel="stylesheet" type="text/css" href="/css/sourceBass.css">
+<link rel="stylesheet" type="text/css" href="/css/checkBusinessSource.css" />
+<link rel="stylesheet" type="text/css" href="/css/datepicker.min.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery-ui-extends.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery.multiselect.css?ver=0.3"/>
+<link rel="stylesheet" type="text/css" href="/css/jquery.multiselect.filter.css?ver=0.3"/>
+
+<body>
+	<header id="header"></header>
+	<div class="con_tent">
+		<div class="mess_age">
+			<h3>客户合同</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<p class="fl">订单号</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">客户合同</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">线路属性</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">是否允许外请</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+				<div class="middle fl">
+					<div class="layout clearfix">
+						<p class="fl">订单类型</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">始发地</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">用车要求</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">客户单号</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+				<div class="right fr">
+					<div class="layout clearfix">
+						<p class="fl">客户全称</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">目的地</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">是否进口</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mess_age">
+			<h3>联系人信息</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<p class="fl">发货人公司</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">发货人手机</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">收货人公司</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">收货人手机</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+				<div class="right right_long fr">
+					<div class="right_two clearfix">
+						<div class="layout fl">
+							<p class="fl">发货联系人</p>
+							<span class="fl" ></span>
+						</div>
+						<div class="layout fr">
+							<p class="fl">发货人电话</p>
+							<span class="fl" ></span>
+						</div>
+					</div>
+					<div class="right_one">
+						<div class="layout clearfix">
+							<p class="fl">发货人地址</p>
+							<span class="fl" ></span>
+						</div>
+					</div>
+					<div class="right_two clearfix">
+						<div class="layout fl">
+							<p class="fl">收货人名称</p>
+							<span class="fl" ></span>
+						</div>
+						<div class="layout fr">
+							<p class="fl">收货人电话</p>
+							<span class="fl" ></span>
+						</div>
+					</div>
+					<div class="right_one">
+						<div class="layout clearfix">
+							<p class="fl">收货人地址</p>
+							<span class="fl" ></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mess_age">
+			<h3>货物及时效</h3>
+			<div class="clearfix">
+				<div class="left fl">
+					<div class="layout clearfix">
+						<p class="fl">货物品名</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">公里数</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">计划发车</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">结算方式</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+				<div class="middle fl">
+					<div class="layout clearfix">
+						<p class="fl">计价方式</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">实际重量</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">到达时限</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">是否已开单</p>
+						<span class="fr" ></span>
+					</div>
+
+				</div>
+				<div class="right fr">
+					<div class="layout clearfix">
+						<p class="fl">单价</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">实际体积</p>
+						<span class="fr" ></span>
+					</div>
+					<div class="layout clearfix">
+						<p class="fl">回单要求</p>
+						<span class="fr" ></span>
+					</div>
+				</div>
+			</div>
+			<div class="layout layout_line clearfix">
+				<p class="fl">计划发车</p>
+				<span class="fl">这里是备注内容</span>
+			</div>
+		</div>
+	</div>
+	<div class="check">
+		<div>
+			<a href="javascirpt:;" class="check_order">取消订单</a>
+			<a href="javascirpt:;" class="check_order">修改</a>
+			<a href="javascirpt:;" class="check_order">生成合同</a>
+			<a href="javascirpt:;" class="check_order">申请撤回</a>
+			<a href="javascirpt:;" class="check_hover">
+				<div class="hover_content">
+					<h4>操作纪录</h4>
+					<p><span>李四</span> 推送时间是；备注:此单十分着急；</p>
+					<p><span>李四</span> 推送时间是；备注:此单十分着急；</p>
+				</div>
+			</a>	
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="/js/jquery-2.1.1.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery-ui.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/datepicker.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.multiselect.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.multiselect.filter.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/datepicker.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.cookie.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/jquery.md5.js?ver=0.3"></script>
+   	<script type="text/javascript" src="/js/store.min.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/global_config.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/global.js?ver=0.3"></script>
+	<script type="text/javascript" src="/js/CBSTable.js?ver=0.3"></script>
+	<script type="text/javascript">
+		var timer;
+		$('.check_hover').hover(function() {
+			$('.hover_content').show();
+			clearTimeout(timer);
+		}, function() {
+			timer = setTimeout(function(){
+				$('.hover_content').hide();
+			},200);
+		});
+		$('.hover_content').hover(function() {
+			clearTimeout(timer);
+		}, function() {
+			timer = setTimeout(function(){
+				$('.hover_content').hide();
+			},200);
+		});
+
+		// // 模态窗口
+		// $('.refuse').click(function(){
+		// 	$('.mo_del').show();
+		// });
+		// $('.model_content span').click(function(){
+		// 	$('.mo_del').hide();
+		// });
+	</script>
+
+</html>
+
+
+
+
+
+
+

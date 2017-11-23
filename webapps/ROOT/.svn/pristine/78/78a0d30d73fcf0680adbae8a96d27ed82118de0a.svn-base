@@ -1,0 +1,9 @@
+/*
+* @Author: zhihong-zh
+* @Date:   2016-07-11 15:23:36
+* @Last Modified by:   zhihong-zh
+* @Last Modified time: 2016-07-11 16:58:51
+*/
+td,th{padding:12px 0;text-align:left;}
+td:first-child,th:first-child{text-align: center;}
+.bus_select{display:inline-block;width:20px;height:12px;background:url(../img/select.png) no-repeat center; cursor:pointer;}

@@ -1,0 +1,19 @@
+/*
+* @Author: zhihong-zh
+* @Date:   2016-07-12 13:32:57
+* @Last Modified by:   zhihong-zh
+* @Last Modified time: 2016-07-12 17:41:55
+*/
+.con_tent{border:none;width:1150px;}
+.check{border:none;width:1150px;}
+.right_long{width:746px;}
+.right_one{width:100%;}
+.right_one input{width:632px;}
+.layout_line textarea{width:1032px;height:26px;line-height: 26px;padding-top:0;}
+.layout_long input{width:113px;}
+.layout_long input:last-child{margin-right:5px;}
+.check .active{ background-color: #de642c;color:#fff;border: 1px solid #bc5120; border-radius: 2px;}
+.check_hover{background:url(../img/clock.png) no-repeat center;}
+.check a{width:90px;}
+
+
